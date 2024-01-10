@@ -1,5 +1,5 @@
 body{
-    background-image: radial-gradient(#b308b6, #2F144C);
+    background-image: radial-gradient(#ffffff, #ffffff);
     height:100vh;
     overflow: hidden;
 }
@@ -8,11 +8,11 @@ body{
     top:50%;
     left:50%;
     transform: translate(-50%,-50%);
-    background-color: #2F144C;
-    color:#eee;
+    background-color: #ffffff;
+    color:#000000;
     padding:20px 40px;
-    font-family: monospace;
-    width:200px;
+    font-family: 'Rubik', sans-serif; /* Use single quotes for font names with spaces */
+    width:100%;
 }
 .box input[name="readmore"]{
     display: none;
@@ -36,7 +36,7 @@ body{
     height:50px;
     transition: 0.5s ease-in-out;
     content:'';
-    background-image: linear-gradient(to top, #2F144C, transparent);
+    background-image: linear-gradient(to top, #ffffff, transparent);
 }
 .box .button{
     margin-top:30px;
@@ -109,3 +109,4 @@ body{
 .box input[name="readmore"]:checked ~ .content::after{
     transform: translate(75%,55%) rotate(30deg);
 }
+  
